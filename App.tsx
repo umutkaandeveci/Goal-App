@@ -64,6 +64,7 @@ export default function App() {
                   text={itemData.item.text}
                   id={itemData.item.id}
                   onDeleteGoal={deleteGoal}
+
                 />
               );
             }}
